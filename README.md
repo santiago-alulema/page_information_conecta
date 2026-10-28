@@ -40,4 +40,3 @@ Basado en la presentación de Conecta: atención postventa, call center, servici
 ## Fotografías locales
 
 Las tres fotografías están integradas en `public/images/` como WebP optimizado, sin URLs externas: `tecnico.webp`, `atencion.webp` e `inventarios.webp`. Modifica sus referencias en `src/styles.css` si deseas cambiarlas.
-# page_information_conecta

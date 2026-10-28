@@ -29,14 +29,8 @@
 .footer-inner{padding:0 20px;min-height:78px}
 @media(max-width:700px){.navbar.scrolled{top:10px}.hero-image{background-position:center,58% center}.hero-title{font-size:clamp(56px,11vw,86px)}.experience-inner:before{inset:45px -12px 50px}.step-number{font-size:55px}.footer{padding:10px}.footer-inner{padding:14px 16px;min-height:unset}.eyebrow{font-size:12px}}
 
-.call .card-ambient {
-  background: linear-gradient(180deg, #041a35ad, #0b32576e 45%, #021328eb), url('/images/atencion.webp') center/cover;
-}
-
-.shops .card-ambient {
-  background: linear-gradient(180deg, #041a35ad, #0a2d4f70 45%, #021328eb), url('/images/tecnico.webp') center/cover;
-}
-/* Fotografías nuevas integradas y optimizadas */
+.call .card-ambient{background:linear-gradient(180deg,#041a35ad,#0b32576e 45.call .card-ambient{background:linear-gradient(180deg,#041a35ad,#0b32576e 45%,#021328eb),url('/images/atencion.webp') center/cover}
+.shops .card-ambient{background:linear-gradient(180deg,#041a35ad,#0a2d4f70 45%,#021328eb),url('/images/tecnico.webp') center/cover}
 .hero-image{background-image:linear-gradient(90deg,rgba(1,13,34,.94) 0%,rgba(2,22,49,.78) 42%,rgba(3,29,58,.14) 100%),url('/images/tecnico.webp');background-size:cover;background-position:center,center 52%}
 .technical .card-ambient{background:linear-gradient(180deg,#041a35a6,#0b34585e 40%,#03152bea),url('/images/tecnico.webp') center/cover}
 .call .card-ambient{background:linear-gradient(180deg,#041a35ad,#0b32576e 45%,#021328eb),url('/images/atencion.webp') center/cover}
@@ -47,36 +41,3 @@
 .footer-inner{min-height:66px;padding:6px 16px;gap:12px}
 .footer-logo{font-size:20px}
 @media(max-width:700px){.hero-image{background-position:center,65% center}.footer{padding:8px}.footer-inner{padding:12px;gap:8px}.footer-inner p{font-size:11px}}
-
-.contact-inner {
-  padding: 75px 0 65px;
-}
-
-.contact h2 {
-  font-size: clamp(48px, 6vw, 85px);
-  line-height: 1.08;
-  margin: 18px 0 22px;
-}
-
-.contact-inner > p {
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-.contact-actions {
-  margin-top: 26px;
-}
-
-.contact-note {
-  margin-top: 18px;
-}
-
-@media (max-width: 700px) {
-  .contact-inner {
-    padding: 65px 0 55px;
-  }
-
-  .contact h2 {
-    font-size: clamp(42px, 9vw, 60px);
-  }
-}
